@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>register</title>
+</head>
+<body>
+	<form action="register" method="POST">
+		<label for="name">Họ tên: </label>
+			<input type="text" required="" id="name" name="name" placeholder="Nhập họ tên" value="" /><br/>
+
+		<label for="phone">Số điện thoại: </label>
+			<input type="number" required="" id="phone" name="name" placeholder="Nhập số điện thoại" value="" /><br/>
+
+		<label for="address">Địa chỉ: </label>
+			<input type="text" required="" id="address" name=name placeholder="Nhập địa chỉ" value="" /><br/>
+
+		<label for="email">Email:</label>
+			<input type="text" required="" id="email" name="name" placeholder="Nhập email" value="" /><br/>
+
+		<label for="gender">Giới tính:</label>
+			<input type="radio" required="" name="gender" value="Nam" />Nam
+			<input type="radio" required="" name="gender" value="Nữ"  />Nữ<br/>
+
+		<label for="subjects">Môn học</label>
+			<select>
+				<option value="Lập trình PHP">Lập trình PHP</option>
+				<option value="Thiết kế đồ hoạ">Thiết kế đồ hoạ</option>
+				<option value="Xử lý video">Xử lý video</option>
+			</select>
+		<br/>
+
+		<label id="note">Ghi chú</label><br>
+			<textarea  id="note" cols="30" rows="5"></textarea>
+		<br/>
+
+		<button type="submit" value="Đăng ký">Đăng ký</button>
+		<button type="reset" value="Huỷ">Huỷ</button>
+
+	</form>
+</body>
+</html>
